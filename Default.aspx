@@ -13,39 +13,6 @@
             return true;
         }
     </script>
-        <%--<div class="d-flex">
-            <label for="txtUsername">Nombre de usuario:</label>
-            <asp:TextBox ID="txtUsername" runat="server" class="bg-dark"></asp:TextBox>
-            <br />
-            <label for="txtPassword">Contraseña:</label>
-            <asp:TextBox ID="txtPassword" runat="server" TextMode="Password"></asp:TextBox>
-            <br />
-            <asp:Button ID="btnLogin" runat="server" Text="Iniciar sesión" OnClick="validarDatos" CssClass="btn btn-primary" />
-        </div>--%>
-
-<%--    <div class="d-flex justify-content-center align-items-center bg-light" style="min-height: 100vh;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 offset-md-3">
-                <div class="card shadow-sm">
-                    <div class="card-body">
-                        <h4 class="card-title text-center mb-4">Iniciar sesión</h4>
-                        <div class="form-group">
-                            <label for="txtUsername">Nombre de usuario:</label>
-                            <asp:TextBox ID="txtUsername" runat="server" CssClass="form-control" />
-                        </div>
-                        <div class="form-group">
-                            <label for="txtPassword">Contraseña:</label>
-                            <asp:TextBox ID="txtPassword" runat="server" TextMode="Password" CssClass="form-control" />
-                        </div>
-                        <asp:Button ID="btnLogin" runat="server" Text="Iniciar sesión" OnClick="validarDatos" CssClass="btn btn-primary btn-block" />
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>--%>
-
     <div class="d-flex justify-content-center align-items-center bg-light" style="min-height: 100vh;">
     <div class="container">
         <div class="row">
